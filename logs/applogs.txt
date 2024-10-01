@@ -1,0 +1,90 @@
+2024-10-01T08:40:16,511 [main] INFO  (RestApiListener.java:23) - 
+ Method Name POST
+ URI => https://restful-booker.herokuapp.com/booking
+ Request Body {"firstname":"api java","additionalneeds":"super","bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-02"},"totalprice":"500","depositpaid":true,"lastname":"postman"}
+ Response Body {
+    "bookingid": 4234,
+    "booking": {
+        "firstname": "api java",
+        "lastname": "postman",
+        "totalprice": 500,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-02"
+        },
+        "additionalneeds": "super"
+    }
+}
+2024-10-01T08:40:17,742 [main] INFO  (RestApiListener.java:23) - 
+ Method Name POST
+ URI => https://restful-booker.herokuapp.com/booking
+ Request Body {"firstname":"rest library","additionalneeds":"super","bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-02"},"totalprice":"300","depositpaid":true,"lastname":"splunk"}
+ Response Body {
+    "bookingid": 4244,
+    "booking": {
+        "firstname": "rest library",
+        "lastname": "splunk",
+        "totalprice": 300,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-02"
+        },
+        "additionalneeds": "super"
+    }
+}
+2024-10-01T08:40:19,167 [main] INFO  (RestApiListener.java:23) - 
+ Method Name POST
+ URI => https://restful-booker.herokuapp.com/booking
+ Request Body {"firstname":"testng","additionalneeds":"super","bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-02"},"totalprice":"200","depositpaid":true,"lastname":"framework"}
+ Response Body {
+    "bookingid": 4264,
+    "booking": {
+        "firstname": "testng",
+        "lastname": "framework",
+        "totalprice": 200,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-02"
+        },
+        "additionalneeds": "super"
+    }
+}
+2024-10-01T09:13:16,778 [main] INFO  (RestApiListener.java:23) - 
+ Method Name POST
+ URI => https://restful-booker.herokuapp.com/booking
+ Request Body {"firstname":"API","additionalneeds":"super","bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-02"},"totalprice":"1000","depositpaid":true,"lastname":"Test"}
+ Response Body {
+    "bookingid": 1272,
+    "booking": {
+        "firstname": "API",
+        "lastname": "Test",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-02"
+        },
+        "additionalneeds": "super"
+    }
+}
+2024-10-01T09:13:18,270 [main] INFO  (RestApiListener.java:23) - 
+ Method Name POST
+ URI => https://restful-booker.herokuapp.com/booking
+ Request Body {"firstname":"Mobile","additionalneeds":"super","bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-02"},"totalprice":"250","depositpaid":true,"lastname":"Testing"}
+ Response Body {
+    "bookingid": 1292,
+    "booking": {
+        "firstname": "Mobile",
+        "lastname": "Testing",
+        "totalprice": 250,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-02"
+        },
+        "additionalneeds": "super"
+    }
+}

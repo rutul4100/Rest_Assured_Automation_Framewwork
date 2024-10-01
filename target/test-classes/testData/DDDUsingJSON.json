@@ -1,0 +1,15 @@
+[
+	
+	{
+		"firstname":"Testing Api1",
+		"lastname":"Automation"
+	},
+	{
+		"firstname":"Testing Api2",
+		"lastname":"Automation2"
+	},
+	{
+		"firstname":"Testing Api3",
+		"lastname":"Automation3"
+	}
+]

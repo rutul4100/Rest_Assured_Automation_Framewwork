@@ -1,0 +1,9 @@
+com\testAutomation\tests\CreateBooking.class
+com\testAutomation\utils\BaseTest.class
+com\testAutomation\tests\CreateBookingUsingFileAsPayload.class
+com\testAutomation\tests\AllureReportGeneration.class
+com\testAutomation\constants\FileName.class
+com\testAutomation\tests\UpdateResourcePutCall.class
+com\testAutomation\tests\GetAPIRequest.class
+com\testAutomation\listeners\RestApiListener.class
+com\testAutomation\tests\DeleteResource.class
